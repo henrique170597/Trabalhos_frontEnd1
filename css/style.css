@@ -1,0 +1,42 @@
+.BlocoPrincipal {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+    align-content: flex-start;
+}
+
+.bloco img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.bloco a{
+    color: white;
+    font-family: "Raleway";
+}
+
+.bloco {
+
+    background-color: blueviolet;
+    height: 40%;
+    width: 10%;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.bloco:hover {
+
+    transform: scale(1.01);
+    filter: brightness(140%);
+
+}
